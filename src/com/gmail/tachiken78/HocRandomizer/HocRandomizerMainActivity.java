@@ -219,7 +219,7 @@ public class HocRandomizerMainActivity extends Activity {
 		};
 		cardnameList = new String[CARD_LIST.length];
 		for(int cnt=0; cnt<CARD_LIST.length; cnt++) {
-			cardnameList[cnt] = CARD_LIST[cnt].getName();
+			cardnameList[cnt] = CARD_LIST[cnt].getCost() + " " + CARD_LIST[cnt].getName();
 		}
 	}
 }
